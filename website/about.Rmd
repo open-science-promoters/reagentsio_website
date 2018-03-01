@@ -2,4 +2,9 @@
 title: "more information"
 ---
 
-This website is being build, register to the newletter to get more information.
+This website is being build, register to the newletter to get updated:
+
+```{r, echo=FALSE}
+htmltools::includeHTML("newslettersignup.html")
+```
+
