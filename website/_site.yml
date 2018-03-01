@@ -1,11 +1,16 @@
-name: "Reagents.io"
-output_dir: "."
+name: Reagents.io
+output_dir: "../docs"
 navbar:
-  title: "Reagents.io"
+  title: Reagents.io
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-    - text: "Impress"
-      href: Impress.html  
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: Impress
+    href: Impress.html
+output:
+  html_document:
+    lib_dir: site_libs
+    self_contained: no
+
