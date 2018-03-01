@@ -1,0 +1,11 @@
+name: "Reagents.io"
+output_dir: "."
+navbar:
+  title: "Reagents.io"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Impress"
+      href: Impress.html  
