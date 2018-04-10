@@ -6,6 +6,8 @@ summary at:
 
 I believe that this project may only be successful if the whole scientific community (including literature curators) has his word and can tell what its needs are, i.e. be an open project.
 
+Since part of the project will be software, the MIT liscence was used. The content of the data folder will be under a CC0 license (still need to figure out how).
+
 ##The problem(s):
 
 Less than 60% of the material described in the literature can be uniquely identified, these description are not computer readable and are often behind paywalls.
