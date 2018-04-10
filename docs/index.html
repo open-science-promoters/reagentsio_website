@@ -13,7 +13,7 @@
 
 <title>Reagents.io</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -22,6 +22,11 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-0.9/htmlwidgets.js"></script>
+<script src="site_libs/datatables-binding-0.2/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.12/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.12/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.12/js/jquery.dataTables.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -205,7 +210,16 @@ $(document).ready(function () {
 
 <div id="make-your-science-more-reproducible" class="section level1">
 <h1>Make your science more reproducible!</h1>
-<p>A disruptive way to deal with your scientific material: Transfer automatically all information from purchase to the final paper, in a computer readable format.</p>
+<p>This project aims at creating an application to deal with life science lab reagents, from purchase to the description in the literature, via the lab inventory itself: It will transfer automatically all information from purchase to the final paper, in computer readable formats.</p>
+<p>This project will be pushed during the elife inoovation sprint in May. Objectives of the sprint is to show what can be done and create communities dealing with specific reagents. The work is based on the <a href="https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)" target="_blank">ART project</a></p>
+<ul>
+<li>create exhaustive standards to enter information about different reagents</li>
+<li>create a Shiny application to transform and merge these different standards into one spreadsheet (similar to the ART)</li>
+<li>create an application to go from the ART to the single reagents spreadsheets.</li>
+</ul>
+<p>We plan to deal with the following reagents:</p>
+<div id="htmlwidget-77fa97a64c7a9eaf8c0a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-77fa97a64c7a9eaf8c0a">{"x":{"filter":"none","data":[["1","2","3"],["Drosophila melanogaster","plasmid","R code"],["Genetic reagent","Recombinant DNA reagent","software"],["0.0.1","0.0.0","0.0.0"],["flybase","addgene",null]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Reagent<\/th>\n      <th>type<\/th>\n      <th>version<\/th>\n      <th>partners<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"order":[],"autoWidth":false,"orderClasses":false,"columnDefs":[{"orderable":false,"targets":0}]}},"evals":[],"jsHooks":[]}</script>
 </div>
 
 

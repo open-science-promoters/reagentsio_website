@@ -4,9 +4,28 @@ title: "Reagents.io"
 
 #Make your science more reproducible!
 
-A disruptive way to deal with your scientific material: 
-Transfer automatically all information from purchase to the final paper, in a computer readable format.
+This project aims at creating an application to deal with life science lab reagents, from purchase to the description in the literature, via the lab inventory itself: It will
+transfer automatically all information from purchase to the final paper, in computer readable formats.
 
+This project will be pushed during the elife inoovation sprint in May.
+Objectives of the sprint is to show what can be done and create communities dealing with specific reagents. The work is based on the [ART project](https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)){target="_blank"}
 
+- create exhaustive standards to enter information about different reagents
+- create a Shiny application to transform and merge these different standards into one spreadsheet (similar to the ART)
+- create an application to go from the ART to the single reagents spreadsheets.
 
+We plan to deal with the following reagents:
+
+```{r, echo=FALSE, warning=FALSE}
+reagent_list <- readr::read_delim("../data/reagent_list.csv", 
+     "\t", escape_double = FALSE, trim_ws = TRUE,
+     col_types= c(
+  Reagent = col_character(),
+  type = col_character(),
+  version = col_character(),
+  partners = col_character()
+))
+
+DT::datatable(reagent_list)
+```
 
