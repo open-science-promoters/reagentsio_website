@@ -47,7 +47,7 @@ Less than 60% of the material described in the literature can be uniquely identi
 
 ## Contributing
 
-See the [contributing documentation](CONTRIBUTING.md) for information on how to
+See the [contributing documentation](contributing.md) for information on how to
 contribute. There is also the [roadmap](roadmap.md) for an overview of the goals 
 and timelines. Please note that this project is released with a 
 [Contributor Code of Conduct](CONDUCT.md). By participating in this project you
