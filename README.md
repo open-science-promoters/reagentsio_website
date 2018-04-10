@@ -6,6 +6,8 @@ summary at:
 
 I believe that this project may only be successful if the whole scientific community (including literature curators) has his word and can tell what its needs are, i.e. be an open project.
 
+
+
 ##The problem(s):
 
 Less than 60% of the material described in the literature can be uniquely identified, these description are not computer readable and are often behind paywalls.
@@ -51,4 +53,6 @@ and timelines. Please note that this project is released with a
 [Contributor Code of Conduct](CONDUCT.md). By participating in this project you
 agree to abide by its terms.
 
+## license
 
+Since part of the project will be software, the MIT liscence was used for the repo. The content of the data folder is under a CC0 1.0 license.
