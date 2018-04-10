@@ -16,7 +16,7 @@ Less than 60% of the material described in the literature can be uniquely identi
 
 1. For each reagent, create reports with exhaustive information (probably in one or several spreadsheets). Three types of information can be included: information about the material itself (that can be obtained at the provider), information specific to the lab (location of the material for example), and information specific about onec experiments (for example antibody dilution, or age of the animal). One should be able to use these spreadsheets as a lab inventory.
 
-2. Create a format to report material in one unique spreadsheet. It should be flexible for different reagents, have a maximum of 5 columns, easy to write by humanms, readable by machines, exhaustive, be useful for the scientists. We will use and expand the ART idea: [ART project](https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)){target="_blank"}: we will use a synthax of the type:
+2. Create a format to report material in one unique spreadsheet. It should be flexible for different reagents, have a maximum of 5 columns, easy to write by humanms, readable by machines, exhaustive, be useful for the scientists. Inspiration comes from the : [ART project](https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)){target="_blank"}, we will use a synthax of the type:
 
     ` origingal_spreadsheet_header:"*information*"; `
 
