@@ -1,5 +1,5 @@
 # www.reagents.io
-summary at:
+Vitrine at:
 [www.reagents.io](http://reagents.io)
 
  We are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research.
@@ -28,17 +28,24 @@ Less than 60% of the material described in the literature can be uniquely identi
 
 
 
-## What we need
+## What we need 
 
-- Expertise about what one should report for each reagent kind.
-- Expertise/discussion/prototypes on how to report the information (human writable, computer readable)
-- A plan on how to make people use the standards (ease of use, benefits, communication,...)
-- expertise in creating website from Rmarkdown, to make our results public in an easy to manage way.
+- Motivated volunteers who think they can contribute, especially:
+    - Expertise about what one should report for each reagent kind.
+    - Expertise/discussion/prototypes on how to report the information (human writable, computer readable)
+    - A plan on how to make people use the standards (ease of use, benefits, communication,...)
+    - Expertise in creating website from Rmarkdown, to make our results public in an easy to manage way.
+    - Expertise in Rshiny apps development.
+    
+- A plan to make this sustainable (i.e. money source)
 
 ## Next steps:
 
 - create a community
 - make prototypes for some reagents
+- make a Rshiny app prototype
+
+see [Roadmap](roadmap.md) for details
 
 ## the team
 
