@@ -12,5 +12,5 @@ As you might have realised, the project wants to build for material what protoco
 
 Please enroll and/or write us any feedback here: https://etherpad.wikimedia.org/p/reagents.io
 
-Best regards,
+Please share the project with everyone you think might be interested, every input will be highly valuated!
 Julien Colomb
