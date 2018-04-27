@@ -16,5 +16,6 @@ Please help us by sharing the project with anyone you think might be interested,
 
 Best,
 
-[your name],
-On behalf of the reagents.io community
+On behalf of the reagents.io community,
+
+[insert your name here]
