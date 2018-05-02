@@ -4,7 +4,17 @@ Project selected for the e-life innovation sprint 2018.
 Vitrine at:
 [www.reagents.io](http://reagents.io)
 
- We are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research.
+We are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research. The "reagent_table" will use transfer information from the provider, the lab inventory and the experiment into one spreadsheet:
+
+<center>
+<figure>
+  <img src="data/figures/Scheme_01.jpeg" alt="" width="400"/>
+  <figcaption>Three sources of information get pooled into the lab inventory and the published reagent table.</figcaption>
+</figure>
+</center>
+
+
+
 
 I believe that this project may only be successful if the whole scientific community (including literature curators) has his word and can tell what its needs are, i.e. be an open project.
 
