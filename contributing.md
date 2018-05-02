@@ -1,11 +1,15 @@
 # Contributing to reagents.io
 
-Thanks for your interest in contributing to the project, aiming at creating a way to easily report accurate and exhaustive information about materials in the scientific literature
+Thanks for your interest in contributing to the project, aiming at creating a way to easily report accurate and exhaustive information about materials in the scientific literature.
 
+Our first step is to create a community, you may start by entering your name and some information about yourself here.: 
+[https://etherpad.wikimedia.org/p/reagents.io](https://etherpad.wikimedia.org/p/reagents.io)
 
 This documents is a set of guidelines. These are guidelines, not rules. This guide is meant to make it easier for you to get involved.
 
-It is still in construction.
+It is still under construction.
+
+<!---
 
 ----
 
@@ -47,3 +51,4 @@ Most projects invite all contributors to report bugs, so "debugging" or fixing p
 
 For the time being, github issues will be the unique communication channel.
 
+--->
