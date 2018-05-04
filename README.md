@@ -61,8 +61,8 @@ see [Roadmap](roadmap.md) for details
 
 ## the team
 
-- Julien Colomb, biologist, fruit fly expert, intermediate R coder
-- You?
+- Julien Colomb, biologist, fruit fly expert, intermediate R coder, https://orcid.org/0000-0002-3127-5520
+- Anita bandrowski, RRID specialist, https://orcid.org/0000-0002-5497-0243
 
 ## Contributing
 
