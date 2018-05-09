@@ -1,0 +1,8 @@
+"Attribute","obtained_from_publisher","ReTa_v001_column","required?","Type","comment"
+"ID","n","NA","n","ID","necessary  to join different tablesn"
+"Paper_doi","y","hidden_information","y","ID",
+"figure number","n","Experiment","n","integer",
+"figure_doi","n","hidden_information","n","ID",
+"protocol_ID","n","NA","n","ID","for example a protocols.io value"
+"Protocol_name","n","hidden_information","n","text","if the protocol has no external ID, state the name manually, otherwise derive the value from the protocol_ID"
+"authors","y","n","n","ID","use orcid id, separated with colons"
