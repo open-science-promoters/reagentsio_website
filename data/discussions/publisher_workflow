@@ -1,0 +1,24 @@
+# Krot and the publisher workflow
+
+## key ressource table at elife
+
+Would be nice to have links instead of text.
+Transformed into xml from the word document.
+
+
+## info about workflow 
+
+
+
+- submission
+- peer review
+- accept 
+- production (xml prod.)  <- Karen workflow (curation form wormbase)comes here
+- publication
+
+Where to put the key reagent open table in the publication workflow:
+KROT going through xml: html version of the links should be good.
+
+## summary
+let's suppose scientists have a KROT at submission:
+idea is to create one file with selected information for reading (plain text), one for upload to elife during submission (html links) and one with complete information (version for the curators) published somewhere else (zenodo/figshare).

@@ -82,6 +82,8 @@ agree to abide by its terms.
 
 - Julien Colomb, biologist, fruit fly expert, intermediate R coder, https://orcid.org/0000-0002-3127-5520
 - Anita bandrowski, RRID specialist, https://orcid.org/0000-0002-5497-0243
+- Melissa Harrison, elife,  https://orcid.org/0000-0003-3523-4408
+
 
 
 
