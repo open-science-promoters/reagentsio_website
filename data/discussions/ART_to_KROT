@@ -1,0 +1,39 @@
+Rows (general):
+(1)   Row titles (preceding the parentheses) must be preserved.
+(2)   Row one (column headings) should not be removed.
+(3)   Row 2 (headings with instructions) can be removed.
+(4)   Order of the rows can be changed.
+(5)   Clustering of multiple reagents of one type recommended, but is not mandatory.
+(6)   Reagent types indicated on template that are not used can be removed.
+(7)   Reagent types not represented in the template: use “other”. 
+
+Column A: Reagent type (mandatory)
+(1)   Row title (preceding parentheses) cannot be changed.
+(2)   See descriptions of categories in “Reagent categories” section below.
+(3)   If appropriate, include species within parentheses. Use full genus and full species for first mention; thereafter, initial for genus may be used.
+(4)   If appropriate, indicate sex after species (within the parentheses); separate by comma, space.
+(5)   See additional information in the section “Rows (general)” above.
+
+Column B: Symbol/name used in publication (mandatory)
+(1)   This is a free-text field; there are no formatting constraints, except for separation of multiple entries by semi-colon, space.
+(2)   Should indicate exactly how the reagent is referred to in the publication.  If several designations are used for one reagent, can include more than one entry, separated by semi-colon, space. If one designation has been used to refer to several different reagents, list each reagent separately and include a unique identifier or description parenthetically.
+(3)   If there is a semi-colon within the designation used, add double quotes around the entire phrase.
+(4)   Additional defining information can be included parenthetically (if brief).
+
+Columns C: Source (mandatory)
+(1)   If reagent obtained from a public source, such as a stock center or company, list resource name.
+(2)   If not obtained from public source, but a published description is available, list the DOI or PMID for the publication. 
+(3)   If reagent newly created in the publication, enter “this paper”.
+(4)   If none of the above, enter “other” and explain in Additional Information (Column E). 
+(5)   If it is appropriate to indicate both a publication and a lab or researcher that provided the reagent, list the publication in this field and the lab or researcher in Additional Information.
+
+Column D: Identifiers (not mandatory; use if possible)
+(1)   Use the format “ID_source:identifier” with a colon and no spaces. Separate multiple entries with a semi-colon, space.
+(2)   If possible, use the recommended abbreviation for the ID_source (see below).
+(3)   Multiple identifiers, even if redundant, are useful for validation. In some case a more general identifier (for a stock, for instance) can be combined with a more precise identifier (for the allele of interest in that stock).
+(4)   Inclusion of database identifiers is strongly encouraged to facilitate accurate incorporation of published data into appropriate biological databases.
+
+Column E: Additional information
+(1)   Mandatory if column C entry is “this paper” or “other”. Description of new reagent or laboratory from which reagent obtained.  (Free text)
+(2)   For antibodies, indicate dilution in parentheses (to avoid auto-formatting problems).
+(3)   Other pertinent information, including pointers to supplementary information or Methods section, if appropriate.  (Free text)

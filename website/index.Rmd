@@ -3,7 +3,16 @@ title: "Keeping lab material information from purchase to paper."
 ---
 
 # Make science more reproducible!
+
+![1. gather information form material providers, open databases and researchers into the lab inventory, 2. create Key reagent open table to tunnel that information into the literature.](../data/figures/principle_01.jpeg)
+
+---
+
 This project aims at creating an application to deal with life science lab reagents, from their purchase to their description in the literature, via the lab inventory itself.
+
+This project will be pushed during the elife inoovation sprint in May. Please see [The github page](https://github.com/jcolomb/reagentsio_website) for more information.
+
+---
 
 First, we are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research.
 In later steps, we will find ways to save the information during purchase, link inventory information to experiments and data, and export of the information for reports.
@@ -16,7 +25,7 @@ I believe that this project may only be successful if the whole scientific commu
 
 This project will be pushed during the elife inoovation sprint in May. Please see [The github page](https://github.com/jcolomb/reagentsio_website) for more information.
 
-During the sprint, we might work on these reagent types:
+At first, we might work on these reagent types:
 
 ```{r, echo=FALSE, warning=FALSE}
 reagent_list <- readr::read_delim("../data/reagent_list.csv", 
