@@ -4,7 +4,7 @@ title: "Keeping lab material information from purchase to paper."
 
 # Make science more reproducible!
 
-![1. gather information form material providers, open databases and researchers into the lab inventory, 2. create Key reagent open table to tunnel that information into the literature.](../data/figures/principle_01.jpeg)
+![1. gather information form material providers, open databases and researchers into the lab inventory, 2. create Key reagent open table to tunnel that information into the literature.](figures/principle_01.jpeg)
 
 ---
 
