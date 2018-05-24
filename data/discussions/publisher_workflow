@@ -3,7 +3,7 @@
 ## key ressource table at elife
 
 Would be nice to have links instead of text.
-Transformed into xml from the word document.
+table transformed into xml from the word document.
 
 
 ## info about workflow 
@@ -17,7 +17,7 @@ Transformed into xml from the word document.
 - publication
 
 Where to put the key reagent open table in the publication workflow:
-KROT going through xml: html version of the links should be good.
+KROT going through xml: html version of the links should be good enough.
 
 ## summary
 let's suppose scientists have a KROT at submission:
