@@ -1,21 +1,17 @@
-"Attribute","obtained_from_provider","ReTa_v001_column","required","Type","comment",,,,,,
-"ID","n","NA","n","ID","necessary  to join different tables",,,,,,
-"genotype","y","identity","y","text","contains special characters",,,,,,
-"source","y","source","n","choice","list of sources listed in flybase database",,,,,,
-"RRID_source","y","source","n","ID","is it useful?",,,,,,
-"Identificators","derived","indentity","n","ID","need to get it from flybase database",,,,,,
-"date_ordered","y","NA","n","date",,,,,,,
-"date_received","n","NA","n","date","necessary in Germany for legal reasons",,,,,,
-"date_culled","n","NA","n","date","culled flies need to be listed for legal reasons",,,,,,
-"status","n","NA","n","choice","health status of the stock",,,,,,
-"sharable","n","hidden_information","n","logic","can the lab send the stock to another lab",,,,,,
-"comments","n","additional_information","n","text","any additional information",,,,,,
-"short_name","n","name","y","text","name used in the publication",,,,,,
-"location","n","NA","n","text","a code for the location in the lab",,,,,,
-"age_at_test_days","n","experiment","n","integer",,,,,,,
-"RRID_stock","y","additional_information","n","ID",,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,
-,,,,,,,,,,,"co"
+"Attribute"	"obtained_from_provider"	"ReTa_v002_column"	"required"	"Type"	"comment"
+"reagent_ID"	"n"	"NA"	"n"	"ID"	"necessary  to join different tables"
+"short_name"	"n"	"name"	"y"	"text"	"name used in the publication"
+"genotype"	"y"	"identity"	"y"	"text"	"contains special characters"
+"source"	"y"	"source"	"n"	"choice"	"list of sources listed in flybase database"
+"RRID_source"	"y"	"source"	"n"	"ID"	"is it useful?"
+"flybase_stocknumber"	"y"	"additional_information"	"n"	"ID"	"Fbstxxxxxxx"
+"Identificators"	"derived"	"indentity"	"n"	"ID"	"need to get it from flybase database"
+"date_ordered"	"y"	"NA"	"n"	"date"	
+"date_received"	"n"	"NA"	"n"	"date"	"necessary in Germany for legal reasons"
+"date_culled"	"n"	"NA"	"n"	"date"	"culled flies need to be listed for legal reasons"
+"status"	"n"	"NA"	"n"	"choice"	"health status of the stock"
+"sharable"	"y"	"source"	"n"	"choice"	"can the lab send the stock to another lab, indicate type of MTA."
+"comments"	"n"	"additional_information"	"n"	"text"	"any additional information"
+"location"	"n"	"NA"	"n"	"text"	"a code for the location in the lab"
+"derived_from"	"n/formELN"	"additional_information"	"n"	"text"	"Fbst numbers of parental lines, patental lines should be described in the table"
+"first_description"	"n/derived"	"indentity"	"n"	"ID"	"doi or pubmed of paper first describing the tool"

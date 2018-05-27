@@ -1,0 +1,58 @@
+---
+title: "workflow"
+author: "colomb_julien"
+date: "5/27/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# a putative workflow on how to include data in the reagent table
+
+##1 Start from previous work
+
+- uplaod a Krot full table
+
+##2 Uplad inventory files
+
+- upload csv or xlsx files
+- find matching headers
+- ask for other headers what kind of information it is
+
+##3 enter paper details
+
+- doi if existant
+- title + authors, if no doi
+
+
+##4 enter each experiment details:
+
+- figure as referred in the text (ex: "1A")
+- menu: kind of reagent
+- button: fill with inventory
+- form "fill information", some required, some are not
+- save and go to next reagent
+
+##5 Enter info on preliminary work 
+
+(parental lines, injection material,...)
+
+- menu "used to create which reagent"
+- idem 4:
+    + menu: kind of reagent
+    + button: fill with inventory
+    + form "fill information", some required, some are not
+    + save and go to next reagent
+
+
+
+##5 produce KROT
+
+- button produce krot
+- see krot in new window
+- download full krot table
+- save full table online and downlaod restricted table for publication
+(doi of full table inserted in restricted table information)
+- set button: 

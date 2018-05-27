@@ -1,0 +1,8 @@
+"Attribute"	"obtained_from_provider"	"ReTa_v002_column"	"required"	"Type"	"comment"
+"reagent_ID"	"n"	"NA"	"n"	"ID"	"necessary  to join different tables"
+"name"	"n"	"name"	"y"	"text"	"name used in the publication"
+"complete_name"	"y"	"identity"	"n"	"text"	
+"RRID"	"y"	"source"	"y"	"ID"	"all antibodies should get a RRID"
+"animal_origin"	"y"	"additional_information"	"n"	"text"	"in which animal it was produced, important to choose secondary antibody"
+"type"	"y"	"additional_information"	"n"	"choice"	"polyclonal or monoclonal"
+"company_name"	"y"	"source"	"n"	"text"	"only use if no RRID given"
