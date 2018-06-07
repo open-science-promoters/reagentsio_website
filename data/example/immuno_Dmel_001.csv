@@ -1,0 +1,7 @@
+"reagent_ID"	"short_name"	"genotype"	"source"	"RRID_source"	"flybase_stocknumber"	"flybase_Identificators"	"date_ordered"	"date_received"	"date_culled"	"status"	"sharable"	"comments"	"location"	"derived_from"	"first_description"
+"Dmel_001"	"Gr66a-GFP, uas-cd8YFP"	"P{Gr66a-GFP.IRES.GFP.IRES.GFP}"	"cross"	"NA"	"NA"	"FBtp0020702;"	"NA"	2017-03-01	"NA"	"in_stock"	"yes"	"cross"	"B1L2"	"Dmel_002, Dmel_003"	"NA"
+"Dmel_002"	"Gr66a-GFP"	"w[*]; P{Gr66a-GFP.IRES.GFP.IRES.GFP}"	"Thum, Adreas"	"NA"	"NA"	"FBtp0020702"	2016-02-01	2016-03-01	2017-03-01	"trashed"	"no"		"NA"	"NA"	"NA"
+"Dmel_003"	"uas-cd8YFP"	"w[*]; P{UAS-mCD8.ChRFP}2"	"BDRC"	"RRID:SCR_006457"	"FBst0027391"	"FBti0115768;FBti0115768"	2016-04-11	2016-05-01	2017-03-01	"trashed"	"no"		"NA"	"NA"	"NA"
+"Dmel_004"	"Wg/Cyo;Gr5a_Gal4/tm3"	"w*; wgSp-1/[CyO; P{Gr5a-GAL4.8.5}2]/TM3, Sb[1]"	"BDRC"	"RRID:SCR_006457"	"FBst0057591"	"FBti0162726"	"NA"	2014-05-01	"NA"	"in_stock"	"yes"		"B1L3"	"NA"	"NA"
+"Dmel_005"	"GH86-Gal4"	"w* P{GawB}GH86"	"Stocker, Reinhard"	"NA"	"FBst0036339"	"FBti0009836"	2011-04-01	2011-05-01	"NA"	"in_stock"	"no"		"B1L4"	"NA"	"heimbeck et al."
+"Dmel_006"	"Gr5a_Gal4"	"w*; P{Gr5a-GAL4.8.5}2]/TM3, Sb[1]"	"cross"	"NA"	"NA"	"FBti0162726;FBba0000047"	"NA"	2017-03-01	"NA"	"in_stock"	"yes"		"B1L5"	"Dmel_004"	"NA"

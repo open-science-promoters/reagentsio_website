@@ -1,5 +1,8 @@
 ###todo
 ### find a way to automatise the reagent_type
+### #todo get "derived_from" reagents into allreagents
+### todo automatise number of sheets
+
 library (readxl)
 library(tidyverse)
 
@@ -18,7 +21,7 @@ createkrot <- function(table, Name = Krot_table [1,], standard) {
     result = c()
     if (length (added_var) == 0) {
       result = NA
-    } else if (length (added_var) == 1) {
+    } else if (i ==3) {
       result <- table [, names(table) == added_var]
     } else{
       for (j in c(1:nrow(krot))) {
@@ -44,31 +47,16 @@ createkrot <- function(table, Name = Krot_table [1,], standard) {
 
 #- read xlsx file, get all sheets: todo automatise number of sheets
 
-master  <- read_excel("data/example/immuno_Dmel_001.xlsx",
+master  <- read_excel("data/example/immuno_Dmel_001.xlsx", na= "NA",
                       sheet = 1)
 var = vector("list", length= nrow(master)-1)
 for (sheet in c(2:nrow(master))){
-  a<- read_excel("data/example/immuno_Dmel_001.xlsx",
+  a<- read_excel("data/example/immuno_Dmel_001.xlsx", na= "NA",
                  sheet = master$SHEET[sheet])
   a$reagent_type <- master$reagent_type[sheet]
   var[[sheet-1]] <-a
   
 }
-
-
-# var1 <- read_excel("data/example/immuno_Dmel_001.xlsx",
-#                    sheet = master$SHEET[2])
-# var1$reagent_type = master$reagent_type[2]
-# 
-# var2 <- read_excel("data/example/immuno_Dmel_001.xlsx", na = "NA",
-#                    sheet = 3)
-# var2$reagent_type = master$reagent_type[3]
-# 
-# var3 <- read_excel("data/example/immuno_Dmel_001.xlsx",  na = "NA",
-#                    sheet = 4)
-# var3$reagent_type = master$reagent_type[4]
-
-
 
 #- read standards to do automatise to read all existing standards
 
@@ -86,19 +74,18 @@ Krot_table <- read_delim("data/Standards/reagent_table_v002.csv",
 
 #- create full krot
 
-# table = var2
-# Name = Krot_table [1,]
-# standard = Drosophila_melanogaster
-# 
-#   table = var3
-#   Name = Krot_table [1,]
-#   standard = Antibodies
-#   
-
   
   Krot =rbind(
     createkrot(var[[2]], standard = Drosophila_melanogaster),
     createkrot(var[[3]], standard = Antibodies)
   )  
-  View (Krot)
+  View (Krot2)
+  
+#- filter Krot for useful data
+  #todo get "derived_from" reagents into allreagents
+  allreagents = c(unique(var[1][[1]]$reagent_ID))
+  Krot2 = Krot %>% filter (reagent_ID %in% allreagents)
 #- export restricted krot
+  
+  write_delim(Krot2, path= "data/example/Krot_export_full.csv", delim = "\t")
+  
