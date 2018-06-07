@@ -1,0 +1,123 @@
+---
+title: "presentation_1"
+author: "colomb_julien"
+date: "6/7/2018"
+output: html_document
+---
+
+```{r, echo= FALSE}
+###todo
+### find a way to automatise the reagent_type
+### #todo get "derived_from" reagents into allreagents
+### todo automatise number of sheets
+
+library (readxl)
+library(tidyverse)
+
+#-- function to create krot:
+createkrot <- function(table, Name = Krot_table [1,], standard) {
+  krot <- as.data.frame(
+    matrix(nrow =length(unique(table$reagent_ID)), ncol = (ncol(Krot_table)+1))
+  )
+  names(krot)=c("reagent_ID", Name)
+  krot$reagent_ID <- unique(table$reagent_ID)
+  krot$reagent_type =table$reagent_type[1]
+  
+  for (i in c(3:ncol(krot))) {
+    added_var = standard$Attribute [standard$ReTa_v002_column == names(krot [i])]
+    added_var = added_var[!is.na(added_var)]
+    result = c()
+    if (length (added_var) == 0) {
+      result = NA
+    } else if (i ==3) {
+      result <- table [, names(table) == added_var]
+    } else{
+      for (j in c(1:nrow(krot))) {
+        toadd = c()
+        for (k in c(1:length(added_var))) {
+          added_vartemp <- added_var[k]
+          added_value <- table [, names(table) == added_vartemp]
+          
+          if (!is.na(table [j, names(table) == added_vartemp])) {
+            toadd = c(toadd, paste (added_vartemp, value = table [j, names(table) == added_vartemp], sep = "-:"))
+          }
+          
+        }
+        result = c(result, paste(toadd, collapse = ";"))
+      }
+      
+      
+    }
+    krot[, i] =   result
+  }
+  return(krot)
+}
+
+#- read xlsx file, get all sheets: todo automatise number of sheets
+
+master  <- read_excel("../data/example/immuno_Dmel_001.xlsx", na= "NA",
+                      sheet = 1)
+var = vector("list", length= nrow(master)-1)
+for (sheet in c(2:nrow(master))){
+  a<- read_excel("../data/example/immuno_Dmel_001.xlsx", na= "NA",
+                 sheet = master$SHEET[sheet])
+  a$reagent_type <- master$reagent_type[sheet]
+  var[[sheet-1]] <-a
+  
+}
+```
+
+# A new paper comes out:
+
+the lab has inventories for all reagents, it is creating a spreadsheet linking each reagents and the paper figure:
+
+```{r}
+DT::datatable (var[[1]])
+```
+
+the reagent_ID link to the inventories that follows the reagents.io standards.
+
+For drosophila melanogaster:
+```{r}
+DT::datatable(var[[2]])
+```
+
+For antibodies:
+```{r}
+DT::datatable(var[[3]])
+```
+
+
+Using the standards of reagents.io, we then create a krot table:
+
+```{r, echo= FALSE}
+Drosophila_melanogaster <- read_delim("../data/Standards/Drosophila_melanogaster.csv",
+                                    "\t", escape_double = FALSE, na = "NA",
+                                    trim_ws = TRUE)
+
+Antibodies <- read_delim("../data/Standards/Antibodies.csv",
+"\t", escape_double = FALSE, na = "NA",
+trim_ws = TRUE)
+
+#DT::datatable (Krot)
+Krot_table <- read_delim("../data/Standards/reagent_table_v002.csv", 
+                              "\t", escape_double = FALSE, col_names = FALSE, 
+                              trim_ws = TRUE)
+
+#- create full krot
+
+  
+ 
+  
+```
+
+```{r}
+Krot_table
+  Krot =rbind(
+    createkrot(var[[2]], standard = Drosophila_melanogaster),
+    createkrot(var[[3]], standard = Antibodies)
+  ) 
+
+DT::datatable (Krot)
+```
+
