@@ -8,7 +8,7 @@ We are working to create a way to easily report accurate and exhaustive informat
 
 <center>
 <figure>
-  <img src="data/figures/Scheme_01.jpeg" alt="" width="400"/>
+  <img src="website/figures/principle_01.jpeg" alt="" width="400"/>
   <figcaption>Three sources of information get pooled into the lab inventory and the published reagent table. Some information will be saved and transfered without even the scientists to notice.</figcaption>
 </figure>
 </center>
