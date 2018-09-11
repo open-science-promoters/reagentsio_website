@@ -1,0 +1,5 @@
+weight: 1
+name: "Browser plug-in"
+icon: "fa fa-lightbulb-o"
+description: "<p>similar to reference managers plugin, this one will recognize RRID elements (or other PID) in a web page and send the information to the information grabber</p>"
+url: "/plugin/"

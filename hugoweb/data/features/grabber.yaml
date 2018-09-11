@@ -1,0 +1,5 @@
+weight: 2
+name: "Information grabber"
+icon: "fa fa-lightbulb-o"
+description: "<p>From the RRID and other PID, current information will be fetched from the databases using API or other connections.</p>"
+url: "/grabber/"

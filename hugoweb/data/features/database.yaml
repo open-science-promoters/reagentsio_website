@@ -1,0 +1,5 @@
+weight: 3
+name: "Inventory database"
+icon: "fa fa-lightbulb-o"
+description: "<p>Each user will get an inventory online where information about the purchase will be sent. The database will be called via REST API from other software</p>"
+url: "/database/"

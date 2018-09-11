@@ -1,0 +1,5 @@
+weight: 4
+name: "KROT"
+icon: "fa fa-print"
+description: "<p>Creation of key reagent open tables, from informations collected in the inventory. Different outputs will be created for different purposes.</p>"
+url: "/KROT/"

@@ -1,0 +1,11 @@
+weight: 3
+title: "An open source project"
+description: >
+  <ul class="list-style-none">
+     <li>Fostering collaboration</li>
+     <li>Anyone can join </li>
+     <li>Making science more reproducible</li>
+   </ul>
+   
+image: "img/opensciencelogo.png"
+source: "CC-BY, https://github.com/jcolomb/opensciencelogo"

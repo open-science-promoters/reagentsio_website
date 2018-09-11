@@ -1,0 +1,5 @@
+weight: 2
+title: "Information tunneled via an inventory"
+description: "<p>Information will be gathered at purchase via a plugin and database search, will be stored in a personal database and exported to create the KROT automatically.</p>"
+image: "img/principle_01.jpeg"
+
