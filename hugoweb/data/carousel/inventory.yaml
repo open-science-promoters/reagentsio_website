@@ -1,5 +1,11 @@
 weight: 2
-title: "Information tunneled via an inventory"
-description: "<p>Information will be gathered at purchase via a plugin and database search, will be stored in a personal database and exported to create the KROT automatically.</p>"
+title: "Automation"
+description: >
+  <ul class="list-style-none">
+     <li>RRID and other PID will be gathered at purchase via a browser plugin</li>
+     <li>Additional information will be pulled from open database</li>
+     <li>Formatted data will be sent to the user's inventory</li>
+     <li>That inventory database will talk with other software via REST API</li>
+     <li>At time of submission, data will be exported in the KROT formats.</li>
+  </ul>
 image: "img/principle_01.jpeg"
-
