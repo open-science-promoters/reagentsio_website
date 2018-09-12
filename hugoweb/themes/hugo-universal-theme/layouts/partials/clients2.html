@@ -1,0 +1,49 @@
+{{ if isset .Site.Params "clients2" }}
+{{ if .Site.Params.clients2.enable }}
+{{ if gt (len .Site.Data.clients2) 0 }}
+<section class="bar background-gray no-mb">
+    <div class="container">
+        <div class="row" flexbox-center>
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.clients2.title1 }}<br>
+                    {{ .Site.Params.clients2.title2 }}</h2>
+                </div>
+
+                <p class="lead"  {{ if .Site.Params.clients2.center }}
+                align = "center" {{end}} >
+                  {{ if .Site.Params.clients2.url }}
+                  <a href= "{{ .Site.Params.clients2.url }}">
+                  {{ .Site.Params.clients2.subtitle }}
+                  </a>
+                  {{ else }}
+                  {{ .Site.Params.clients2.subtitle }}
+                  {{ end }}
+                </p>
+                <div align="center">
+                <ul class="owl-carousel customers" >
+                    {{ range .Site.Data.clients2 }}
+                    <li class="item" title="{{ .name }}">
+                        {{ if .url }}
+                          <a href="{{ .url }}">
+                            
+                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive"  />
+                           <p class="lead"> {{ .name }}</p>
+                          </a>
+                        {{ else }}
+                        
+                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          <p class="lead"> {{ .name }}</p>
+                        {{ end }}
+                    </li>
+                    {{ end }}
+                </ul>
+                <!-- /.owl-carousel -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
