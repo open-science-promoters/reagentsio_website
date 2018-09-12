@@ -165,3 +165,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+
+[params.clients2]
+    enable = true
+    
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title1 = "We want to make it easy"
+    title2 = "to report materials in the scientific literature. "
+    subtitle = "We are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research.The KROT (key reagent open table) will use transfer information from the provider, the lab inventory and the experiment into one table."
+
+    
+    
+    center = false
+    
+    

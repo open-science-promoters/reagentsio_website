@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+  {{ partial "head.html" . }}
+  {{ partial "twittercard.html" . }}
+
+  <body>
+
+    <div id="all">
+
+        <header>
+
+          {{ partial "top.html" . }}
+
+          {{ partial "nav.html" . }}
+
+        </header>
+        
+        {{ partial "clients2.html" . }}
+        
+        {{ partial "carousel.html" . }}
+        
+        
+        
+        {{ partial "see_more.html" . }}
+        
+        
+        
+        {{ partial "features.html" . }}
+        
+        {{ partial "testimonials.html" . }}
+                
+        {{ partial "clients.html" . }}
+
+        {{ partial "recent_posts.html" . }}
+
+        
+        {{ partial "footer.html" . }}
+
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
+  </body>
+</html>
