@@ -1,4 +1,4 @@
-baseurl = "https://www.reagents.io"
+baseurl = "https://www.reagents.io/"
 title = "reagents.io"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
