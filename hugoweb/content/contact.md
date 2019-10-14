@@ -15,7 +15,7 @@ Drososhare GmbH
 Schillerpromenade 4
 12049 Berlin
 
-E-Mail: info@drososhare.net
+E-Mail: julien.colomb@fu-berlin.de
 Tel.: +49 (0) 30 46721825
 
 Vertretungsberechtigter Geschäftsführer: Dr. Julien Colomb

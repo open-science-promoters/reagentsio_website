@@ -13,9 +13,9 @@ In contrast to previous attempts, we are not aiming at a simple table that would
 
 The krot itself should be flexible for different reagents, have a maximum of 5 columns, easy to write by humanms, readable by machines, pretty exhaustive, and be useful for the scientists for their inventory. 
 
-Inspiration comes from the : [ART project](https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)){target="_blank"} (the star method table is too simplistic). In the column, in order to pool different information into one column, we will use a synthax of the type:
+Inspiration comes from the : [ART project](https://wiki.flybase.org/wiki/FlyBase:Author_Reagent_Table_(ART)) (the star method table is too simplistic). In the column, in order to pool different information into one column, we will use a synthax of the type:
 
-    ` origingal_spreadsheet_header:"*information*"; `
+`origingal_spreadsheet_header:"*information*";`
 
 Each reagent will indeed have its spreadsheet with unlimited number of columns. Each columns will be assigned a column in each KROT versions. A small application will transform formats into one other. 
 

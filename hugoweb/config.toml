@@ -93,7 +93,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     email = "your@email.com"
 
     about_us = "<p>we want to make science more reproducible</p>"
-    copyright = "Copyright (c) 2018, julien colomb; distributed via a CC-BY 4.0 license."
+    copyright = "Copyright (c) 2018-present, julien colomb; distributed via a CC-BY 4.0 license."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -174,7 +174,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # For more informtion take a look at the README.
     title1 = "We want to make it easy"
     title2 = "to report materials in the scientific literature. "
-    subtitle = "We are working to create a way to easily report accurate and exhaustive information about materials in the scientific literature, for the good of all scholars and a increased reproducibilty of research.The KROT (key reagent open table) will use transfer information from the provider, the lab inventory and the experiment into one table."
+    subtitle = """
+    We are working to create a way to easily report accurate 
+    and exhaustive information about materials in the scientific literature, 
+    for the good of all scholars and a increased reproducibilty of research.
+    We develop both standards (KROT:key reagent open table) and software
+    to transfer information from the provider, to the lab inventory and eventually
+    into the scholarly literature in a human and computer readable form.
+    """
 
     
     
