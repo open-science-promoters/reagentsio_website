@@ -1,4 +1,4 @@
-baseurl = "https://www.reagents.io/"
+baseurl = "https://reagentsio.netlify.app/"
 title = "reagents.io"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -182,8 +182,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     to transfer information from the provider, to the lab inventory and eventually
     into the scholarly literature in a human and computer readable form.
     """
-
-    
     
     center = false
     
