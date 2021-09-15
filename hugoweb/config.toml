@@ -22,6 +22,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 1
 
 [[menu.main]]
+    name = "Drosophila-specific"
+    url  = "https://www.drososhare.net"
+    weight = 1    
+
+[[menu.main]]
     name = "Blog"
     url  = "/blog/"
     weight = 2
